@@ -1,0 +1,557 @@
+
+
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.color-title
+{
+    color: gray;
+}
+
+/* Start Home Section */
+.carousel-caption
+{
+    padding-bottom: 20rem;
+}
+
+.font-detail
+{
+    font-size: 60px;
+}
+.navbar-brand
+{
+    letter-spacing: 5px;
+}
+.hov:hover
+{
+    color: red;
+    cursor: pointer;
+}
+a:hover
+{
+    color: red !important;
+}
+.oh
+{
+    top:80px;
+}
+/* End Home Section */
+
+
+
+
+
+
+
+/* Start about section */
+.abouth1
+{
+    position: absolute;
+    top:50px;
+    font-family: "Poppins", sans-serif;
+}
+.abouth2
+{
+    color: #f1f1f1;
+    font-size:6rem;
+}
+.progress-bar
+{
+    height: 5px;
+}
+.progress
+{
+    height: 4px;
+}
+/* End about Section */
+
+
+
+
+
+
+
+
+/* Start backgrund Section */
+#background
+{
+    background-image: url("../images/mission.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    background-attachment: fixed;
+}
+.The-First:hover i , .The-First:hover p
+{
+    color: red;
+}
+/* End background Section */
+
+
+
+
+/* Start Team Section */
+.first-image img
+{
+    transition: all 0.5s ease-in-out;
+}
+.overlay
+{
+    position: absolute;
+    background-color: rgba(255,50,50,0.7);
+    top:0px;
+    left: 0px;
+    opacity: 0;
+}
+.first-image:hover .overlay
+{
+    opacity: 1;
+}
+.first-image:hover img
+{
+    transform: scale(1.1,1.1)
+}
+.big-div:hover h5
+{
+    color: tomato;
+}
+/* End Team Section */
+
+
+
+
+
+
+
+
+/* start Projects Section */
+#Our-Projects
+{
+    background-color: #fafafa;
+}
+.link
+{
+    border:2px solid tomato;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.pictures a:hover
+{
+    cursor: pointer;
+}
+.active
+{
+    color: red !important;
+}
+
+.pic
+{
+    width: 395px;
+    height: 395px;
+}
+.pic img
+{
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+.over
+{
+    background-color: rgba(255,255,255,0.90);
+    top:5px;
+    left: 5px;
+    width: 97%;
+    height: 97%;
+    opacity: 0;
+    transition: 0.3s;
+}
+.over-1
+{
+    background-color: rgba(255,255,255,0.90);
+    top:5px;
+    left: 20px;
+    width: 97%;
+    height: 97%;
+    opacity: 0;
+    transition: 1s;
+}
+.caption
+{
+    padding-top:40%;
+}
+.pic:hover .over , .pic:hover .over-1
+{
+    opacity: 1;
+}
+.pic:hover img
+{
+    transform: scale(1.1,1.1);
+}
+/* End Projects Section */
+
+
+
+
+
+
+/* Start Services Section */
+#Our-Services
+{
+    background-color: #fafafa;
+}
+.color-icon
+{
+    color: #f25454;
+}
+.info:hover h4
+{
+    color: #f25454;
+}
+/* End Services Section */
+
+
+
+
+#video
+{
+    height: 600px;
+}
+.over-over-lay
+{
+    background-color: rgba(0,0,0,0.4);
+    height: 100%;
+    width: 100%;
+    top:0px;
+    left: 0px;
+}
+
+
+
+
+.color-font-p
+{
+    color: gray;
+}
+.size-font
+{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+/* ٍStart Statistics Section */
+#Statistics
+{
+    background-color:  #262626;
+    height: 350px;
+}
+.caption-icon
+{
+    border-right: 1px solid #444;
+}
+.color-ico
+{
+    color: #f25454;
+}
+/* End Statistics Section */
+
+
+
+
+
+
+
+
+
+
+
+/* Start Blog Section */
+.color-date
+{
+    color: gray;
+}
+
+.link-hov
+{
+    color: #444 !important;
+    font-size: 14px;
+}
+.color-link
+{
+    color: #f25454 !important;
+}
+.color-Link:hover
+{
+    cursor: pointer;
+    color: black !important;
+}
+.link-hov:hover
+{
+    cursor: pointer;
+}
+.overlay-over
+{
+    background-color: rgba(255,255,255,0.3);
+    top:0px;
+    left: 0px;
+    opacity: 0;
+}
+.original img
+{
+    transition: 0.5s;
+}
+.original:hover img
+{
+    transform: scale(1.2,1.2);
+}
+.original:hover .overlay-over
+{
+    opacity: 1;
+}
+
+.Big-Box
+{
+    top:20px;
+    right: 0px;
+}
+/* End Blog Section */
+
+
+
+
+
+
+
+
+
+/* start Prices Section */
+#prices
+{
+    background-image: url(../images/pricing.jpg);
+    height: 950px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.over-lay
+{
+    background-color: rgba(0,0,0,0.7);
+    height: 950px;
+}
+.special
+{
+    color: rgba(0,0,0,0.3);
+}
+.text-pricing
+{
+    background-color: #f1f1f1;
+}
+.a-color
+{
+    background-color: black;
+}
+.a-color:hover
+{
+    background-color: #f25454;
+}
+.a-color:hover a
+{
+    color:white !important;
+}
+.text-pricing:hover .price-type  , .text-pricing:hover .price-detail , .text-pricing:hover .month , .text-pricing:hover .icon-dolar
+{
+    color: tomato;
+}
+.price-detail
+{
+    font-size: 80px;
+}
+.price-edit
+{
+    font-size:100px;
+}
+.special-pricing
+{
+    background-color: #f25454;
+}
+/* End Prices Section */
+
+.wrapper
+{
+    width: 45%;
+}
+
+
+/* Start Get-in-touch Section */
+#Get-Touch
+{
+    background-color: #fafafa;
+}
+.line-after
+{
+    width: 450px;
+}
+.icon-icon
+{
+    color: #f25454;
+}
+.colr-p
+{
+    color: gray;
+}
+input:hover , textarea:hover
+{     
+    border:3px solid #f25454 !important;
+}
+/* End Get-in-touch Section */
+
+
+
+
+
+/* Start Summary Section */
+#Summary
+{
+    background-image: url(../images/vector-dotted-world-map-on-a-blue-background.jpg);
+    background-size: 100% 100%;
+    height: 400px;
+}
+.over-over
+{
+    height: 400px;
+    background-color: rgba(0,0,0,0.95);
+}
+.edits
+{
+    border-color: gray !important;
+    color: gray !important;
+}
+.editor-editor a:hover
+{
+    cursor: pointer;
+    color: #f25454 !important;
+    border-color: #f25454 !important;
+}
+/* End Summary Section */
+
+
+
+/*start Footer Section */
+#Footer
+{
+    background-color: #111;
+    height: 70px;
+}
+.icon-col:hover
+{
+    cursor: pointer;
+    color: #f25454 !important;
+}
+/*End Footer Section */
+
+
+
+
+
+
+
+
+
+@media (max-width:500px)
+{
+    #background
+    {
+        height: 1800px;
+    }
+}
+@media (min-width:501px),(max-width:767)
+{
+    #background
+    {
+        height: 1750px;
+    }
+}
+@media (min-width:771px)
+{
+    #background
+    {
+        height: 550px;
+    }
+}
+@media (max-width:767px)
+{
+    #Statistics
+    {
+    height: 1300px;
+    }   
+}
+@media (min-width:500px) , (max-width:991px)
+{
+    #prices
+    {
+        height: 2250px;
+    }
+    .over-lay
+    {
+        height: 2250px;
+    }
+    .special-one
+    {
+        margin: 20px 0px;
+    }
+}
+@media (min-width:992px)
+{
+    #prices
+    {
+        height: 950px;
+    }
+    .over-lay
+    {
+        height: 950px;
+    }
+}
+@media (min-width:500px) , (max-width:767px)
+{
+    #Summary
+    {
+        height: 1000px !important;
+    }
+    .over-over
+    {
+        height: 1000px !important;
+    }
+}
+@media (min-width:768px) , (max-width:991px)
+{
+    #Summary
+    {
+        height: 650px;
+    }
+    .over-over
+    {
+        height: 650px;
+}
+@media (min-width:992px)
+{
+    #Summary
+    {
+        height: 450px !important;
+    }
+    .over-over
+    {
+        height: 450px !important;
+    }
+}
